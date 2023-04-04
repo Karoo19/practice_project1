@@ -1,0 +1,14 @@
+TestNG Listeners
+---------------------------
+
+ITestListeners---->interface
+TestListenersAdapter---Class
+
+onTestStart()
+onTestFailure()
+onTestSuccess()
+onTestSkipped()
+
+
+extend report
+------------------------

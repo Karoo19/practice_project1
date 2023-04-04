@@ -1,0 +1,55 @@
+working directory:
+C:\Users\bouto\eclipse-workspace\Advanced_Maven_Mypractice
+
+
+Git--> local repo
+Github--> remote/global repo
+
+-----------------------------------------------------------------------------------------------------------------------
+WorkFlow:
+
+1)git init --->create an empty repository
+2)git config --global user.name "name"
+  git config --global user.email "email"
+3) git add -A
+   git add filename.txt   (specific file)
+   git add *.java    (need to add only java file)
+   git add foldername
+4)git status
+5)git commit -m "first commit"
+6)git remote add origin git@github
+7)git push origin master
+
+-----------------------------------------------------------------------------------------------------------------------
+2Round for any modification
+
+1)git add -A
+2)git commit -m "2nd commit"
+3)git push -u origin master
+
+-----------------------------------------------------------------------------------------------------------------------
+once you will create file in github 
+TC 00_java
+Go to eclipse refresh    nothing
+git pull
+
+git pull  --> get files from github to workspace
+
+----------------------------------------------------------------------------------------------------------------------
+git clone-- get entire project into your workspace
+git clone "github repo url" <folder>
+-----------------------------------------------------------------------------------------------------------------------
+create remote repository in github:
+https://github.com/Karoo19/Advanced_Maven_MyPractice.git     --> create repository in github
+
+
+-------------------------------------------------------------------------------------------------------------------------
+fatal: remote origin already exists.
+
+git remote rm origin
+
+git remote -v It will not display any repository name
+
+git remote add origin git@github.com:username/myapp.git
+
+git push origin master It will start the process and creating the new branch. You can see your work is pushed to github.

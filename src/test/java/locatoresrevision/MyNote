@@ -1,0 +1,89 @@
+Locators:
+
+1)XPATH:
+//html[@attribute = 'value']
+//html[@attribute1 = 'value' or @attribute2 = 'value']
+//html[@attribute1 = 'value' and @attribute2 = 'value']
+//html[text() = 'value']
+//html[contains(text(), 'value')]
+//html[contains(@attribute, 'value')]
+//html[start-with(@attribute, 'value')]
+//html[ends-with(@attribute, 'value')]
+------------------------------------------------------------
+
+//input[@id = 'login1']
+//input[@id = 'login1' and @name = 'login']
+//input[@id = 'login1' or @name = 'login']
+//u[text() = 'Forgot Password?']
+//u[contains(text(), 'Forgot Password?')]
+//input[contains(@id, 'password')]
+
+//a[contains(@class, 'signin')]
+//a[text() = 'Sign in']
+//a[contains(text(), 'Sign in')]
+
+//iframe[starts-with(@id, 'ctcg_frame_')]
+//iframe[ends-with(@id, '_ctcg_frame')]
+
+------------------------------------------------------------
+
+Dynamic/Customized/Relative Xpath
+
+following
+preceding
+following-sibling
+preceding-sibling
+parent
+child
+ancestor
+descendant
+
+about html family
+how to traverse within the DOM
+top to bottom or bottom to top
+
+why we do traversing?
+how to select the root node ?
+how many webelements can we consider(safe to consider) during traverse?
+
+//a[@class = 'signin']/following-sibling::a[1]
+//p[@id = 'signin_info']/child::a[2]
+//p[@id = 'signin_info']/descendant::a[2]
+//span[@id = 'username' or @class = 'username']/following::a[2]
+//div[@class = 'cell alignR toprlinks']/descendant::a[2]
+//div[@class = 'table']/descendant::p[@id = 'signin_info']/child::a[2]
+//div[@id = 'red_container_main']/preceding::p[@id = 'signin_info']/child::a[2]
+===============================================================================
+cssSelector
+
+html[attribute = value]
+html.className
+.className
+html.className1.className2.className3
+input[id = login1]
+html#id
+#id
+
+a[class = signin]
+a.signin
+.signin
+div.cell.alignR.toprlinks
+
+
+input#login1
+
+a.signin + br + a
+
+p#signin_info>a:nth-of-type(2)
+input#OAS_subsection + style + div + div>div:nth-child(1)>div:nth-of-type(3)>p>a+br+a
+======================================================================================
+
+
+coding wise + tech knowlege = good
+experience - justify
+
+Mid April
+1 month - revision
+2 weeks for interview preparation
+mock interviews
+then you are ready

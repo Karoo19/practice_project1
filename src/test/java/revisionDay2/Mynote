@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------
+<input type="text" id="login1" maxlength="100" name="login" value="" tabindex="1">
+input- html
+Atributes- type,id,maxlength, name, value,tabindex and tabindex
+
+--------------------------------------------------------------------------
+textbox - enter certain text
+links
+radiobutton - click
+radiobox - click to check or uncheck
+images views
+checboxes click to check or uncheck
+text
+dropdown - select and 
+alerts
+calendars
+frames
+flash
+buttons
+captchas
+barcodes
+webtables

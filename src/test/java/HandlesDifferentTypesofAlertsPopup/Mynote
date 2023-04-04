@@ -1,0 +1,12 @@
+Alert/popup
+------------
+1)alert with ok
+2)alert with ok and cancel
+3)alert with inputbox along with ok and cancel
+4)alert with no elements
+
+Alert alertwindow = driver.switchTo().alert()
+
+accept()
+dismiss()
+getText()

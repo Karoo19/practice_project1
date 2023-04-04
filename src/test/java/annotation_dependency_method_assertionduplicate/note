@@ -1,0 +1,86 @@
+annotations
+------------------------------
+
+@Test
+
+@BeforeMethod   // will execute multiple time before test method
+@AfterMethod    // will execute multiple time after test method
+
+@BeforeClass    // will execute once time before multiple test method
+@AfterClass     // will execute once time after multiple test method
+
+@BeforeTest     // will execute multiple time before test method
+@AfterTest
+
+@BeforeSuite   // will execute only once before suite
+@AfterSuite
+
+TC1:
+----------------
+1)login             @BeforeMethod
+2)Search            @Test
+3)logout            @AfterMethod
+4)login
+5)advanced search   @Test
+6)logout
+
+---------------------------------------------------
+
+Suite-->Test-->class-->method
+
+This is before suite method....
+This is before test method.....
+This is before class method.....
+This is before method
+This is Test Method
+This is after method
+This is before method
+This is Test Method
+This is after method
+This is after class method .....
+This is after test method.....
+This is after suite method....
+
+------------------------------------------------------
+Dependency method
+
+
+------------------------------------------------------
+Validation
+
+
+-------------------------------------------------------
+HardAssertions
+can be directly access from assert class--> 
+All method are static
+if hard assertions got failed then rest of the statement will be not executed.
+
+SoftAssertions
+-------------
+access through SoftAssert Object
+
+Softassert sa= new SoftAssert();
+sa.asserttrue();
+
+If Soft assertions got failed then rest of the statements still will be executed
+
+---------------------------------------------------------
+Grouping
+
+
+
+
+--------------------------------------------------------
+Parameterization
+
+Passing parameters to the tests
+1)@DataProvider
+   invocationCount
+2)XML- Parallel testing
+
+
+
+
+
+
+

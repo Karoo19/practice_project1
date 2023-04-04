@@ -1,0 +1,14 @@
+TestNg
+
+Test new generation- java based unit until testing tool
+
+Advantages:
+--------------
+1)Test cases & test suites
+2)grouping of test cases
+3)Prioritize
+4)Parametrization
+5)parallel testng
+6)Repos
+--------------------------------------------
+priority- control order of execution

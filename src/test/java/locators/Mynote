@@ -1,0 +1,18 @@
+Xpath:
+adress of webelement
+
+Types:
+------
+1)Absolute Xpath
+2) relative Xpath
+--------------------------------
+Syntax of xpath:
+id
+name
+className
+-------------------
+Syntax of relative xpath:
+
+//html[@attribute = 'valueofattribute']
+//html[@attribute1 ='value'  or @attribute2 = 'value']
+//html[@attribute1 ='value'  and @attribute2 = 'value']
